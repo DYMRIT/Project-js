@@ -1,0 +1,60 @@
+
+body {
+    background-color: cornsilk;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.main {
+    margin-top: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#title {
+    text-align: center;
+}
+
+ul {
+    margin-top: 30px;
+    list-style-type: none;
+}
+
+li {
+    position: relative;
+    font-size: 20px;
+    width: 100%;
+    height: 20px;
+    padding: 15px;
+}
+
+.add {
+    display: flex;
+    align-items: center;
+}
+
+#input-task{
+    border: 0;
+    width: 70%;
+    height: 30px;
+    border-bottom: 3px solid #4198fc;
+    background-color: cornsilk;
+    font-size: 30px;
+}
+
+.delete-btn {
+    position: absolute;
+    left: 60%;
+    border: 0;
+    background-color: #e53232;
+    width: 20%;
+    height: 35px;
+    border-radius: 5px;
+}
+
+#add-task-button {
+    border: 0;
+    background-color: #4198fc;
+    width: 20%;
+    height: 35px;
+    border-radius: 5px;
+}
